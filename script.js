@@ -5,7 +5,7 @@ const alternatives = [
   {text:"I will take a bullet for you", images:"images/cat-04.gif"},
   {text:"I can't do without you", images:"images/cat-05.gif"},
 ]
-const ohyes = {text:"Yayyyyyyyyy!!!", images:"images/cat-yess.gif"}
+const ohyes = {text:"Yayyyyyyyyy!!!", images:"images/good.gif"}
 const cat = document.querySelector('.cat')
 const text = document.querySelector('.text')
 const buttons = document.querySelectorAll('.button')
