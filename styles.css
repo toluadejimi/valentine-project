@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 :root{
   --heart-color:#ff5873;
   --background-color: #ebc8c0;
@@ -21,7 +23,16 @@ body{
   text-align: center;
 }
 .title{
-  font-size: 28px;
+  color: #ff5485;
+  font-size:30px;
+  font-family: 'Pacifico', cursive;
+  line-height:1;
+  text-align: center;
+  width:380px;
+  left:10px;
+  z-index:3;
+  top:320px;
+  transition: .2s;
 }
 .animation{
   width: 280px;
@@ -31,10 +42,34 @@ body{
   width: 100%;
   height: auto;
 }
-.text{
+
+.text {
+  color: #ff6994;
+  font-size:18px;
+  padding:20px;
+  font-family: 'Pacifico', cursive;
+  line-height:1;
+  text-align: center;
+}
+
+.text2 {
   padding:20px;
   font-size:18px;
+  color: #800f2f;
+  font-size:40px;
+  font-family: 'Pacifico', cursive;
+  line-height:1;
+  text-align: center;
+  width:380px;
+  left:10px;
+  z-index:3;
+  top:320px;
+  transition: .2s;
 }
+
+
+
+
 .button{
   background: var(--heart-color);
   color:var(--white);
